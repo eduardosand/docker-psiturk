@@ -19,3 +19,6 @@ You can then run the container with the following command:
 docker run -i -t --rm --name name_of_container -p 22362:22362 -v %cd%:/psiturk <your-username>/<image_name>
 ```
 Once in the container, you should be able to start psiturk and set up experiments. I will update this repository with more specific pointed instructions for setting up a Heroku app to avoid the use of psiturk's ad server if needed.
+
+
+Dockerhub link here: https://hub.docker.com/repository/docker/esandov4/psiturk/general
